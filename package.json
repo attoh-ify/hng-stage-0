@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/index.ts --watch"
+    "dev": "nodemon --exec ts-node src/index.ts --watch",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +22,6 @@
     "winston": "^3.18.3"
   },
   "devDependencies": {
-    "@types/axios": "^0.14.4",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/express-useragent": "^1.0.5",
